@@ -151,3 +151,67 @@ nav > div.left > ul , nav > div.left > ul > a {
   box-shadow: -2px 2px 1px rgba(0, 0, 0, 0.5);
   transform: scale(0.96);
 }
+
+
+/* Vans ------------------------------------- */
+
+/* .van--container {
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+} */
+
+.vans--grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-content: center;
+  justify-items: center;
+  padding: 20px;
+}
+
+.vans--grid > div > img {
+  width: 180px;
+  border-radius: 5px;
+}
+
+.van--name {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.van--name > h1 {
+  font-size: 14px;
+}
+
+.van--name > p {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.simple--label {
+  border: none;
+  background: #E17654;
+  border-radius: 5px;
+  color: #FFEAD0;
+  padding: 5px;
+}
+
+.rugged--label {
+  border: none;
+  background: #115E59;
+  border-radius: 5px;
+  color: #FFEAD0;
+  padding: 5px;
+}
+
+.luxury--label {
+  border: none;
+  background: #161616;
+  border-radius: 5px;
+  color: #FFEAD0;
+  padding: 5px;
+}
